@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Thrones - Galería</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="overlay-menu" class="overlay-menu">
+        <button class="close-btn">&times;</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="temporadas.html">Temporadas</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="encabezado">
+        <div class="logo">
+            <a href="index.html"><img src="img/got_logo.png" alt="Logo Game of Thrones" class="logo-img"></a>
+        </div>
+        <nav class="navegacion">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="temporadas.html">Temporadas</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main class="contenido-principal-galeria">
+        <h1>Galería</h1>
+        <div class="galeria-lightbox">
+            <div class="fila">
+                <a href="img/daenerys.webp" data-lightbox="got-gallery" data-title="Daenerys Targaryen"><img src="img/daenerys-ch.webp" alt="Daenerys Targaryen"></a>
+                <a href="img/snow.webp" data-lightbox="got-gallery" data-title="Jon Snow"><img src="img/snow-ch.webp" alt="Jon Snow"></a>
+                <a href="img/boromir.webp" data-lightbox="got-gallery" data-title="Ned Stark"><img src="img/boromir-ch.webp" alt="Ned Stark"></a>
+            </div>
+            <div class="fila">
+                <a href="img/game-of-thrones.webp" data-lightbox="got-gallery" data-title="Iron Throne"><img src="img/game-of-thrones-ch.webp" alt="Iron Throne"></a>
+                <a href="img/pareja.webp" data-lightbox="got-gallery" data-title="Daenerys y Tyron"><img src="img/pareja-ch.webp" alt="Daenerys and Jon"></a>
+                <a href="img/game-of-thrones-serie.webp" data-lightbox="got-gallery" data-title="Logo Juego de tronos"><img src="img/game-of-thrones-serie-ch.webp" alt="Cast"></a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="legales">
+            <p>&copy; 2025 Game of Thrones Fansite. Todos los derechos reservados.</p>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://x.com/GameOfThrones/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/gameofthrones/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/GameOfThrones/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.youtube.com/user/GameofThrones" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

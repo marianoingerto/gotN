@@ -1,0 +1,83 @@
+.contenido-principal-contacto {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.columna-info, .columna-formulario {
+    flex: 1;
+}
+
+.columna-info h1 {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
+}
+
+.columna-info h1:hover {
+    color: #a11212;
+}
+
+.columna-info p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    color: #c0c0c0;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.mapa {
+    margin-top: 2rem;
+}
+
+.formulario-contacto {
+    padding: 1rem;
+}
+
+.formulario-contacto .campo-formulario {
+    margin-bottom: 1.5rem;
+}
+
+.formulario-contacto label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #c0c0c0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #555;
+    background-color: #222;
+    color: #c0c0c0;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-enviar {
+    background-color: transparent;
+    color: #c0c0c0;
+    padding: 0.8rem 1.5rem;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn-enviar:hover {
+    background-color: #a11212;
+    color: #fff;
+    border-color: #a11212;
+}
+
+@media (max-width: 768px) {
+    .contenido-principal-contacto {
+        flex-direction: column;
+    }
+}

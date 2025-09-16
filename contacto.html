@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Thrones - Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div id="overlay-menu" class="overlay-menu">
+        <button class="close-btn">&times;</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="temporadas.html">Temporadas</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="encabezado">
+        <div class="logo">
+            <a href="index.html"><img src="img/got_logo.png" alt="Logo Game of Thrones" class="logo-img"></a>
+        </div>
+        <nav class="navegacion">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="temporadas.html">Temporadas</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main class="contenido-principal-contacto">
+        <section class="columna-info">
+            <h1>Contacto</h1>
+            <p><strong>Teléfono:</strong> +123 456 789</p>
+            <p><strong>Dirección:</strong> París 532, Haedo, Buenos Aires, Argentina</p>
+            <div class="mapa">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13130.246423412687!2d-58.612492734726146!3d-34.64051726885207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb880263d379f%3A0xfa00dafc9277b841!2sPar%C3%ADs%20532%2C%20B1706EAH%20Haedo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1756955797151!5m2!1ses-419!2sar" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        </section>
+        <section class="columna-formulario">
+            <form action="#" method="POST" class="formulario-contacto">
+                <div class="campo-formulario">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="campo-formulario">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="campo-formulario">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="legales">
+            <p>&copy; 2025 Game of Thrones Fansite. Todos los derechos reservados.</p>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://x.com/GameOfThrones/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/gameofthrones/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/GameOfThrones/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.youtube.com/user/GameofThrones" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
